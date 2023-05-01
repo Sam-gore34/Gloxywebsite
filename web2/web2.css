@@ -1,0 +1,158 @@
+
+	@media (min-width: 768px)
+.navbar-expand-md .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+
+
+.logo_position{
+	position: absolute;
+}
+.menu_icon{
+	height: 30px;
+	width: 30px;
+	background-color:#f0f2f5;
+	text-align: center;
+	border-radius:50% ;
+}
+.menu_icon i{
+	margin-top:5px;
+}
+.menu_icon:hover{
+	background-color:#e74c14;
+	color:white;
+}
+.menu{
+	background-color:#f2dfc4;
+}
+.nav-link{
+	font-weight:bold ;
+}
+	.navbar-nav .menu_home{
+		background-color:#e74c14;
+		
+
+	}
+	.navbar-nav .data:hover{
+		background-color:#e74c14 ;
+		color: white;
+		
+	}
+	@media(max-width: 667px){
+		.menu{	background-color:#e74c14;
+			
+		}
+
+	}
+	.slider_area{
+		background-image: url(https://gloxy-react.envytheme.com/static/slide-bg-1-d528d449d91932aed63336d59b9439c9.jpg);
+		height: 600px;
+		background-size: 100% 100%;
+	}
+	.button{
+		background-color:#e74c14 ;
+		border-radius: 10px;
+		border: none;
+		height: 50px;
+		width: 200px;
+		color: white;
+		font-weight: bold;
+	}
+	.font_size{
+		font-weight: bold;
+	}
+	@media(max-width: 667px){
+		.slider_area{
+			height: 400px;
+		}
+	}
+	.height{
+		height: 50px;
+		width: 50px;
+	}
+	.slider-why{
+		margin-top: -50px;
+	}
+	@media(max-width: 667px){
+		.slider-why{
+			margin-top: 40px;
+		}
+	}
+   
+   .display-2{
+   	color:#e74c14 ;
+   }
+   .data:hover{
+   	background-color: #e74c14;
+   	color: white;
+   	
+   }
+   .data i:hover{
+   	color: white;
+   }
+   
+   	
+  .title{
+   	color:#e74c14 ;
+   	font-weight: bold;
+
+  }
+	.service{
+		height: 80px;
+		width: 80px;
+		border: 2px dotted black;
+		border-radius: 50px;
+		margin: center;
+		text-align: center;
+		box-shadow: 0px 0px 10px 0px black ;
+		margin-left: 150px;
+		color:#e74c14 ;
+
+	}
+	.text2{
+		color: #e74c14;
+		font-weight: bold;
+	}
+	
+	.img{
+		background-image:url(https://t4.ftcdn.net/jpg/03/36/99/11/240_F_336991124_1ZjU91D3aZjk2OJmEaJAu4OrE3OKgXCY.jpg) ;
+		height: 500px;
+		width: 100%;
+		background-size: 100% 100%;
+
+	}
+	.btn2{
+		background-color:#e74c14;
+		font-weight: bold;
+		height: 40px;
+		width: 200px;
+		border: none;
+		border-radius: 10px;
+
+	}
+	.text3{
+		color:#e74c14 ;
+		font-weight: bold;
+	}
+	.bacground2{
+		height: 700px;
+		width: 100%;
+		background-color:#edebf0;
+	}
+	.text4{
+		font-size: 25px;
+		font-weight: bold;
+	}
+	.text5{
+		font-size: 20px;
+	}
